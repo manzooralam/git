@@ -29,3 +29,14 @@ Git is a distributed version-control system for tracking changes in source code 
 
 ` git checkout branch-name `
 
+## Remote origin already exists on 'git push' to a new repository
+To remove a remote repository
+
+` git remote rm origin `
+
+Again "origin" is the name of the remote repository if you want to remove the "upstream" remote:
+
+` git remote rm upstream `
+
+
+(See more)[https://mirrors.edge.kernel.org/pub/software/scm/git/docs/git-remote.html]
