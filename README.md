@@ -10,7 +10,7 @@ Git is a distributed version-control system for tracking changes in source code 
 ## Git-scm [Download link](https://git-scm.com/)
 
 ## How to push any project in github/bitbucket:
-    first create project github/bitbucket:
+    first create a project in github/bitbucket:
    
 * git init
 * git all --all
