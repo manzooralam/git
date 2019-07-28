@@ -40,6 +40,26 @@ Again "origin" is the name of the remote repository if you want to remove the "u
 
 ` git remote rm upstream `
 
+
+## Cloning specific branch:
+
+` git clone --single-branch --branch <branchname> <remote-repo> `
+
+```
+e.g.
+C:\Users\Manzoor Alam>git clone --single-branch --branch Chatting_QA_Ionic_4 https://github.com/manzooralam/Ionic_4_tutorial.git
+```
+## git push to specific branch:
+
+` git push <remote> <branch> `
+
+```
+e.g.
+git push origin Chatting_QA_Ionic_4
+```
+
+
+
 Reference : [git-scm official documents](https://git-scm.com/book/en/v2)
 
 (See more)[https://mirrors.edge.kernel.org/pub/software/scm/git/docs/git-remote.html]
