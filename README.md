@@ -13,6 +13,7 @@ Git is a distributed version-control system for tracking changes in source code 
     first create a project in github/bitbucket:
    
 * git init
+* git add README.md
 * git all --all
 * git remote add origin https://project-url.git
 * git commit -m "commit-message"
