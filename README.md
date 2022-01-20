@@ -59,7 +59,19 @@ e.g.
 git push origin Chatting_QA_Ionic_4
 ```
 
+## Add .gitignore file and Remove node_modules file from github
 
+```
+Make .gitignore file. and add `node_modules/` line
+Run below commands in your terminal
+
+git rm -r --cached node_modules
+
+git commit -am "node_modules removed!"
+
+git push origin master
+
+```
 
 Reference : [git-scm official documents](https://git-scm.com/book/en/v2)
 
